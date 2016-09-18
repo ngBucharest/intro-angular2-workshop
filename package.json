@@ -1,0 +1,47 @@
+{
+  "name": "angular2-workshop",
+  "version": "1.0.0",
+  "description": "Angular JS Bucharest Workshop",
+  "main": "index.js",
+  "scripts": {
+    "w": "webpack",
+    "postinstall": "typings install",
+    "start": "webpack-dev-server --inline --progress --port 8080",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/angularjs-bucharest/Intro-Angula2-workshop.git"
+  },
+  "keywords": [
+    "angular"
+  ],
+  "author": "AngularJS Bucharest",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/angularjs-bucharest/Intro-Angula2-workshop/issues"
+  },
+  "homepage": "https://github.com/angularjs-bucharest/Intro-Angula2-workshop#readme",
+  "devDependencies": {
+    "angular2-template-loader": "^0.5.0",
+    "file-loader": "^0.9.0",
+    "html-webpack-plugin": "^2.22.0",
+    "node-sass": "^3.10.0",
+    "raw-loader": "^0.5.1",
+    "sass-loader": "^4.0.2",
+    "ts-loader": "^0.8.2",
+    "typescript": "^1.8.10",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.16.0"
+  },
+  "dependencies": {
+    "@angular/common": "^2.0.0",
+    "@angular/compiler": "^2.0.0",
+    "@angular/core": "^2.0.0",
+    "@angular/platform-browser": "^2.0.0",
+    "@angular/platform-browser-dynamic": "^2.0.0",
+    "core-js": "^2.4.1",
+    "rxjs": "^5.0.0-beta.12",
+    "zone.js": "^0.6.23"
+  }
+}
