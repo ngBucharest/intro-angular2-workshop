@@ -1,0 +1,20 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-2">
+      <p>
+        Search: <input [(ngModel)]='query' />
+      </p>
+      <p>
+        Sort by:
+        <select [(ngModel)]="orderProp">
+          <option value="name">Alphabetical</option>
+          <option value="age">Newest</option>
+        </select>
+      </p>
+    </div>
+    <div class="col-md-10">
+      <phone-list [phones]="phones | phoneFilter:query">
+      </phone-list>
+    </div>
+  </div>
+</div>
