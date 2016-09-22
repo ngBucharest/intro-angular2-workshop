@@ -5,28 +5,3 @@
   padding-bottom: 1em;
   width: 100px;
 }
-
-/* View: Phone detail */
-.phone {
-  background-color: white;
-  display: none;
-  float: left;
-  height: 400px;
-  margin-bottom: 2em;
-  margin-right: 3em;
-  padding: 2em;
-  width: 400px;
-}
-
-.phone:first-child {
-  display: block;
-}
-
-.phone-images {
-  background-color: white;
-  float: left;
-  height: 450px;
-  overflow: hidden;
-  position: relative;
-  width: 450px;
-}

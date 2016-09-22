@@ -1,5 +1,5 @@
-<a href="#" class="thumb">
+<a [routerLink]="['/phone', phone.id]" class="thumb">
   <img src="{{ phone.imageUrl }}" alt="{{ phone.name }}" />
 </a>
-<a href="#">{{ phone.name }}</a>
+<a [routerLink]="['/phone', phone.id]">{{ phone.name }}</a>
 <p>{{ phone.snippet }}</p>
