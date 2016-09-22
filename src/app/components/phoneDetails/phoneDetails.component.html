@@ -1,8 +1,6 @@
 <div *ngIf="phone">
   <div class="phone-images">
-    <img src="{{ img }}" class="phone"
-        [class.selected]="img === mainImageUrl"
-        *ngFor="let img of phone.images" />
+    <img src="{{ mainImageUrl }}" class="phone active" />
   </div>
 
   <h1>{{ phone.name }}</h1>
