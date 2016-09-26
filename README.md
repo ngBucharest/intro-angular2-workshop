@@ -1,5 +1,7 @@
 # Intro to Angular 2 workshop
 
+This is an implementation of the Angular 1 tutorial, Phonecat, in Angular 2. It was used for a workshop by AngularJS Bucharest team.
+
 ## Requirements
 * NodeJS - [https://nodejs.org/](https://nodejs.org/)
 * Typings - `sudo npm install -g typings`
