@@ -1,0 +1,6 @@
+{
+  "name": "Intro-angular2-workshop",
+  "tagline": "The code for our Intro to Angular 2 Workshop.",
+  "body": "# Intro to Angular 2 workshop\r\n\r\nThis is an implementation of the Angular 1 tutorial, Phonecat, in Angular 2. It was used for a workshop by AngularJS Bucharest team.\r\n\r\n## Requirements\r\n* NodeJS - [https://nodejs.org/](https://nodejs.org/)\r\n* Typings - `sudo npm install -g typings`\r\n\r\n## Setup\r\n* `npm install`\r\n\r\n## Development\r\n* `npm start` starts a local webserver at `http://localhost:8090` and recompiles / reloads when code is changed.\r\n\r\n## Building\r\n* `npm run build` performs a build in the `./build` folder. It uses a separate config file, `webpack.config.prod.js`, to enable different options for the production build versus the development build.\r\n\r\n## Resources\r\n* [Angular 2 documentation](https://angular.io/docs/ts/latest/)\r\n* [Angular 2 tutorial - Heroes](https://angular.io/docs/ts/latest/tutorial/)\r\n* [Pete Hunt’s webpack cookbook](https://github.com/petehunt/webpack-howto)",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
