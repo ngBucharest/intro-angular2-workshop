@@ -4,7 +4,9 @@
   "description": "Angular JS Bucharest Workshop",
   "main": "index.js",
   "scripts": {
-    "w": "webpack",
+    "prebuild": "rm -rf ./build",
+    "build": "webpack --config webpack.config.prod.js",
+    "postbuild": "cp -r ./src/assets/phones ./build/phones",
     "postinstall": "typings install",
     "start": "webpack-dev-server --inline --progress --port 8090 --content-base src/assets/ --history-api-fallback",
     "test": "echo \"Error: no test specified\" && exit 1"

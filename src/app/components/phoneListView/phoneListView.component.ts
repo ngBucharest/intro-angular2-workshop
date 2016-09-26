@@ -6,9 +6,9 @@ import {PhoneService} from '../../services/phone.service';
   templateUrl: 'phoneListView.component.html',
 })
 export class PhoneListViewComponent implements OnInit {
-  _phones = [];
-  orderProp;
-  query;
+  _phones: any[] = [];
+  orderProp: string = 'name';
+  query: string = '';
   constructor(private phoneService: PhoneService) { }
 
   ngOnInit() {
@@ -30,5 +30,4 @@ export class PhoneListViewComponent implements OnInit {
   set phones(val: any[]) {
     this._phones = val;
   }
-
 }

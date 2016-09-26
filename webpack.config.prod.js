@@ -1,5 +1,5 @@
-const HtmlWebpackPlugin = require('html-webpack-plugin');
-const webpack = require('webpack');
+var HtmlWebpackPlugin = require('html-webpack-plugin');
+var webpack = require('webpack');
 
 module.exports = {
   entry: {
@@ -9,7 +9,7 @@ module.exports = {
   },
   output: {
     path: 'build',
-    filename: '[name].js'
+    filename: '[name].js',
     publicPath: '/'
   },
   resolve: {
@@ -42,5 +42,11 @@ module.exports = {
     new webpack.optimize.CommonsChunkPlugin({
       name: ['app', 'vendor', 'polyfill']
     }),
+    new webpack.optimize.UglifyJsPlugin({
+      minimize: true,
+      warnings: false,
+      sourceMap: false,
+      comments: false
+    })
   ]
 }

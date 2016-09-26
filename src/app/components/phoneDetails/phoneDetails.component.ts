@@ -10,8 +10,8 @@ import './phoneDetails.component.scss';
 })
 export class PhoneDetailsComponent implements OnInit {
   @Input() phoneName = 'dell-venue';
-  phone;
-  mainImageUrl;
+  phone: any;
+  mainImageUrl: string;
   constructor(private phoneService: PhoneService, private route: ActivatedRoute){}
 
   ngOnInit() {

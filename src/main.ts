@@ -5,7 +5,7 @@ import { FormsModule }   from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app/app.component';
-import { routing, appRoutingProviders }  from './app/app.routing';
+import { routing }  from './app/app.routing';
 
 import { AppModule } from './app/app.module'
 
@@ -20,9 +20,7 @@ import { AppModule } from './app/app.module'
   declarations: [
     AppComponent,
   ],
-  providers: [
-    appRoutingProviders,
-  ],
+  providers: [],
   bootstrap: [ AppComponent ]
 })
 export class MainModule { }
